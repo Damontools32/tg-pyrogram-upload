@@ -1,8 +1,8 @@
 #GET A PARTICULAR FOLDER ALL CONTENT IN TXT FOR UPLOAD ALL TELEGRAM WITH FULL PATH OF EACH FILE AS CAPTION OF THE FILE
-find '/path/to/parent-folder' -type f -printf "%P\n" | sort --version-sort > full.txt  #REPLACE ME BETWEEN ''
+find '/content/downloads' -type f -printf "%P\n" | sort --version-sort > full.txt  #REPLACE ME BETWEEN ''
 
 rm -rf thumb.jpg
-fold='/path/to/parent-folder' #REPLACE ME BETWEEN ''
+fold='/content/downloads' #REPLACE ME BETWEEN ''
 
 split_video() {
 echo "$COUNT. >2GB SO SPLITING $nm"
