@@ -9,8 +9,8 @@ from pyrogram import Client
 import time
 import mimetypes
 
-api_id = '20307428'
-api_hash = 'db1b2a38958c06bc4e99b01d4cfd485c'
+api_id = ''
+api_hash = ''
 
 username = sys.argv[1]
 video_path = sys.argv[2]
